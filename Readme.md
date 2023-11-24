@@ -15,3 +15,9 @@ Then run the python file. New ```model.h``` file will be generated for the new m
 Then compile the ```drawLineTest.c``` file which includes the new model.h file. 
 
 Run the ```drawLineTest.c``` to view the rasterised array in the terminal. (You can zoom out character in terminal with shortcuts like "ctrl" + "shift" + "-" (linux) or "cmd" + "-" (mac))
+
+## Performance
+As this code draws every edge on screen pixel by pixel, the time complexity per frame is proportional to number of edges and length of each edge after projection.
+
+## Credits
+The reduced-plant-pot.obj is a low poly version of model available on Sketchfab, downloaded for non profit.
